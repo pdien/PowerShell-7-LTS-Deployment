@@ -2,4 +2,4 @@
 
 - Deploys the LTS version of PowerShell 7 (7.6.10) via winget.
 - Deploys OpenSSH Server, latest version retrieved from https://github.com/PowerShell/Win32-OpenSSH/releases/latest.
-- Configures OpenSSH default shell via registry key.
+- Sets OpenSSH default shell to PowerShell 7 (pwsh) via registry key.
