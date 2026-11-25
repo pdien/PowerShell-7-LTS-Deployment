@@ -2,6 +2,7 @@
 
 Microsoft is retiring the MSI installer for PowerShell 7 in lieu of the lesser MSIX.
 This complicates things for automation purposes and more specifically, for me, setting PowerShell 7 as the default shell for OpenSSH.
+The last MSI version is 7.6 and is now LTS.
 
 - Deploys the LTS version of PowerShell 7 (7.6.10) via winget.
 - Deploys OpenSSH Server, latest version retrieved from https://github.com/PowerShell/Win32-OpenSSH/releases/latest.
